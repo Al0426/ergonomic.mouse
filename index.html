@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ergonomic Vertical Mouse - Premium & Nyaman</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #0a0a0a;
+            color: #e5e5e5;
+        }
+        
+        .gold-text {
+            color: #D4AF37;
+        }
+        
+        .gold-border {
+            border-color: #D4AF37;
+        }
+        
+        .gold-bg {
+            background-color: #D4AF37;
+        }
+        
+        .black-bg {
+            background-color: #0a0a0a;
+        }
+        
+        .section-divider {
+            border-top: 1px solid #D4AF37;
+            opacity: 0.3;
+            margin: 3rem 0;
+        }
+        
+        .promo-box {
+            background: linear-gradient(135deg, #D4AF37 0%, #F5D98F 100%);
+            color: #0a0a0a;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(212, 175, 55, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);
+            }
+        }
+        
+        .testimonial-card {
+            background: rgba(20, 20, 20, 0.8);
+            border-left: 3px solid #D4AF37;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #D4AF37;
+        }
+        
+        .countdown-box {
+            background: rgba(212, 175, 55, 0.1);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+        
+        .countdown-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #D4AF37;
+        }
+        
+        .product-image {
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .product-image:hover {
+            transform: scale(1.03);
+        }
+        
+        /* Larger image styles */
+        .main-product-image {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .detail-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .variant-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin: 0 auto;
+        }
+        
+        .promo-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Header Section -->
+    <header class="relative overflow-hidden">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold gold-text">VERTICAL<span class="text-white">MOUSE</span></div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#features" class="text-white hover:gold-text transition">Fitur</a>
+                    <a href="#details" class="text-white hover:gold-text transition">Detail</a>
+                    <a href="#testimonials" class="text-white hover:gold-text transition">Testimoni</a>
+                    <a href="#order" class="gold-text font-semibold">Beli Sekarang</a>
+                </div>
+                <button class="md:hidden text-white">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Larger Main Image -->
+    <section class="py-8 md:py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center">
+                <img src="https://cdn.hotishop.com/image/35f57e81f1b2f27ef6bfa11b3a585f8d91a0636f.png" 
+                     alt="Ergonomic Vertical Mouse" 
+                     class="main-product-image product-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Title & Description -->
+    <section class="py-8">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-3xl md:text-4xl font-bold mb-4 gold-text">Ergonomic Vertical Mouse</h1>
+                <p class="text-lg md:text-xl mb-6 text-gray-300">🖱️ Ergonomic Vertical Mouse – Nyaman & Sehat untuk Tangan Anda!</p>
+                <p class="text-gray-400 mb-8">
+                    Terlalu lama pakai mouse bikin pergelangan sakit? Saatnya beralih ke Vertical Mouse Ergonomis yang didesain khusus untuk mencegah pegal, kram, dan risiko Carpal Tunnel Syndrome.
+                </p>
+                <a href="#order" class="inline-block px-8 py-3 gold-bg text-black font-bold rounded-lg hover:bg-yellow-600 transition duration-300 transform hover:scale-105">
+                    DAPATKAN SEKARANG
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Features Section -->
+    <section id="features" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 gold-text">KEUNGGULAN PRODUK</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="text-center p-6 rounded-lg bg-black bg-opacity-50 hover:bg-opacity-70 transition">
+                    <div class="feature-icon mb-4">
+                        <i class="fas fa-bluetooth-b"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 gold-text">KONEKSI 3 PERANGKAT</h3>
+                    <p class="text-gray-400">
+                        Mouse ergonomis dengan 3 mode koneksi (BT5.0 + BT3.0 + 2.4GHz). Beralih dengan mudah di antara 3 perangkat melalui tombol sakelar. Multitasking yang efisien antara laptop, tablet, dan desktop.
+                    </p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="text-center p-6 rounded-lg bg-black bg-opacity-50 hover:bg-opacity-70 transition">
+                    <div class="feature-icon mb-4">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 gold-text">PERLINDUNGAN LENGAN</h3>
+                    <p class="text-gray-400">
+                        Mouse vertikal ergonomis memungkinkan Anda menyesuaikan posisi lengan dan pergelangan tangan dengan nyaman, mengurangi ketegangan otot di lengan untuk gerakan yang lebih nyaman dan mengurangi stres.
+                    </p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="text-center p-6 rounded-lg bg-black bg-opacity-50 hover:bg-opacity-70 transition">
+                    <div class="feature-icon mb-4">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 gold-text">KONTROL TEPAT</h3>
+                    <p class="text-gray-400">
+                        Menggunakan teknologi pelacakan optik beresolusi 1600/1200/800 DPI untuk sensitivitas tinggi dibanding mouse optik standar, memungkinkan pelacakan yang halus dan presisi di berbagai permukaan.
+                    </p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="text-center p-6 rounded-lg bg-black bg-opacity-50 hover:bg-opacity-70 transition">
+                    <div class="feature-icon mb-4">
+                        <i class="fas fa-mouse"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 gold-text">UKURAN SEMPURNA</h3>
+                    <p class="text-gray-400">
+                        Dirancang untuk tangan kanan berukuran sedang hingga besar (4,73 x 2,96 x 2,48 inci). Untuk kenyamanan optimal, kami sarankan mengukur tangan Anda sebelum membeli.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Product Details with Larger Images -->
+    <section id="details" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 gold-text">DETAIL PRODUK</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.hotishop.com/image/35f57e81f1b2f27ef6bfa11b3a585f8d91a0636f.png" 
+                         alt="Vertical Mouse Detail" 
+                         class="detail-image product-image mb-4">
+                    <p class="text-gray-400 text-center">Desain ergonomis untuk kenyamanan maksimal</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.hotishop.com/image/3ff42a08546f3aabf5ff83ac85be5c2818ff2957.png" 
+                         alt="Vertical Mouse Detail" 
+                         class="detail-image product-image mb-4">
+                    <p class="text-gray-400 text-center">Tombol yang mudah diakses</p>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.hotishop.com/image/0dc0bae0cf61a3e47c68daa8206491bdfef9ee87.jpeg" 
+                         alt="Vertical Mouse Detail" 
+                         class="detail-image product-image mb-4">
+                    <p class="text-gray-400 text-center">Koneksi nirkabel yang stabil</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.hotishop.com/image/ed3d0ea7033d062712a66716f7bb770b18e88dcf.jpeg" 
+                         alt="Vertical Mouse Detail" 
+                         class="detail-image product-image mb-4">
+                    <p class="text-gray-400 text-center">Material premium yang tahan lama</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.hotishop.com/image/b17fbe3d93584e698fc1687950dd3a7e82be9347.jpeg" 
+                         alt="Vertical Mouse Detail" 
+                         class="detail-image product-image mb-4">
+                    <p class="text-gray-400 text-center">Scroll wheel yang presisi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Color Variants with Larger Images -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 gold-text">PILIHAN WARNA</h2>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-12">
+                <div class="flex flex-col items-center">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98q-lm376renptpn93.webp" 
+                         alt="Black Variant" 
+                         class="variant-image product-image">
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98w-lm376renr8a363.webp" 
+                         alt="White Variant" 
+                         class="variant-image product-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 gold-text">TESTIMONI PELANGGAN</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        "Setelah 2 minggu pakai mouse ini, sakit pergelangan tangan saya berkurang drastis. Awalnya agak aneh karena bentuknya berbeda, tapi setelah 2 hari sudah terbiasa. Kualitas produk premium banget!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold gold-text">Budi Santoso</h4>
+                            <p class="text-sm text-gray-500">Programmer, Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        "Sebagai desainer grafis yang bekerja 8-10 jam sehari, mouse ini benar-benar mengubah pengalaman kerja saya. Tidak ada lagi pegal di pergelangan tangan setelah seharian kerja. Worth every penny!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold gold-text">Dewi Lestari</h4>
+                            <p class="text-sm text-gray-500">Graphic Designer, Bandung</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        "Awalnya ragu karena harganya lebih mahal dari mouse biasa, tapi setelah pakai 1 bulan, saya tidak mau kembali ke mouse biasa lagi. Koneksi bluetooth stabil dan baterai awet sampai 2 minggu."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold gold-text">Andi Wijaya</h4>
+                            <p class="text-sm text-gray-500">Content Creator, Surabaya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Promo Countdown -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6 gold-text">PROMO SPESIAL HARI INI</h2>
+                <p class="text-xl text-gray-300 mb-8">Diskon spesial hanya berlaku hingga:</p>
+                
+                <div class="countdown-box rounded-lg p-6 mb-8">
+                    <div class="flex justify-center space-x-4 md:space-x-8">
+                        <div class="text-center">
+                            <div class="countdown-number" id="countdown-hours">00</div>
+                            <div class="text-gray-400">Jam</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="countdown-number" id="countdown-minutes">00</div>
+                            <div class="text-gray-400">Menit</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="countdown-number" id="countdown-seconds">00</div>
+                            <div class="text-gray-400">Detik</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="promo-box rounded-lg p-6 max-w-2xl mx-auto mb-8">
+                    <h3 class="text-2xl font-bold mb-2">Harga Promo: Rp 214.000</h3>
+                    <p class="font-semibold">Anda Hemat Rp 86.000 dari harga normal Rp 300.000</p>
+                </div>
+                
+                <p class="text-gray-400 mb-8">*Harga akan kembali normal setelah timer habis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Notes -->
+    <section class="py-8">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto bg-black bg-opacity-50 rounded-lg p-6">
+                <h3 class="text-xl font-semibold gold-text mb-4">CATATAN PESANAN & PENGIRIMAN</h3>
+                <ul class="space-y-2 text-gray-300">
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-yellow-400 mr-2 mt-1"></i>
+                        <span>Pengiriman 2 - 4 Hari Setelah Pemesanan</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-yellow-400 mr-2 mt-1"></i>
+                        <span>Mohon Isi Alamat Dengan Lengkap</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-yellow-400 mr-2 mt-1"></i>
+                        <span>100% Product Original dengan Garansi Resmi</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form with Larger Promo Image -->
+    <section id="order" class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-8">
+                    <img src="https://cdn.cloudfastcdn.com/image/7f5f5fccf4e6e3bcb49c175ca2253530041af8fd.jpeg" 
+                         alt="Promo Diskon" 
+                         class="promo-image rounded-lg product-image">
+                </div>
+                
+                <div class="bg-black bg-opacity-70 rounded-lg p-6 border border-gray-800">
+                    <h2 class="text-2xl font-bold text-center mb-6 gold-text">FORM PEMESANAN</h2>
+                    
+                    <!-- OrderOnline Embed Code -->
+                    <div class="ooef">
+                        <form class="orderonline-embed-form" data-username="emma" data-product-slug="e4vtfefded" data-product-id="68ab53406af4a877240bbc8c" id="oo-embed-form-e4vtfefded-4260" data-origin="orderonline">
+                            <div class="ooef-loader">
+                                <style>
+                                    .ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}
+                                    @keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                    @-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                    .ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}
+                                    .ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}
+                                    .ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}
+                                    @-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                                    @keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                                </style>
+                                <div aria-live="polite" role="status">
+                                    <div>Loading...</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <script>
+                        if (typeof xLogError != 'function') {
+                            var xLogError = function (error) {
+                                var req = new XMLHttpRequest();
+                                var payload = JSON.stringify({
+                                    url: document.location.href,
+                                    line: error.line,
+                                    stack: error.stack
+                                });
+                                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                                req.open('POST', 'https://api.orderonline.id/log', true);
+                                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                                req.send(params);
+                            };
+                        }
+                        try {
+                            if (typeof xEmbedScript != 'function') {
+                                var xEmbedScript = function () {
+                                    !function(w, d, e, v, id, t, s) {
+                                        if (d.getElementById(id)) return;
+                                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                        s = d.getElementsByTagName(e)[0];
+                                        s.parentNode.insertBefore(t, s);
+                                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                                };
+                            }
+                            if (typeof xEmbedInit != 'function') {
+                                var xEmbedInit = function (w, n) {
+                                    if (w.ooe) return;
+                                    n = w.ooe = function() {
+                                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                    };
+                                    if (!w._ooe) w._ooe = n;
+                                    n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                                };
+                            }
+                            xEmbedInit(window);
+                            ooe('setup', 'redirect', 'https://emma.orderonline.id');
+                            ooe('init', '5f16831a9d8e8e4fb67472e5', '68ab53406af4a877240bbc8c', null, 'oo-embed-form-e4vtfefded-4260', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":false});
+                            if (!window.jQuery) {
+                                !function(w, d, e, v, id, t, s) {
+                                    if (d.getElementById(id)) return;
+                                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                    t.addEventListener('load', xEmbedScript);
+                                    s = d.getElementsByTagName(e)[0];
+                                    s.parentNode.insertBefore(t, s);
+                                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                            } else {
+                                xEmbedScript();
+                            }
+                        } catch (e) {
+                            xLogError(e);
+                            throw e;
+                        }
+                    </script>
+                    <!-- End OrderOnline Embed Code -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-2xl font-bold gold-text mb-4 md:mb-0">VERTICAL<span class="text-white">MOUSE</span></div>
+                <div class="text-gray-400 text-sm">
+                    &copy; 2023 Ergonomic Vertical Mouse. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date();
+            const endOfDay = new Date();
+            endOfDay.setHours(23, 59, 59, 999);
+            
+            const diff = endOfDay - now;
+            
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('countdown-hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('countdown-minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('countdown-seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
